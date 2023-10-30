@@ -39,7 +39,7 @@ export default class ModificarPersonaje extends Component {
             <Navigate to={"/personajes/" + this.state.serie} />
           )
         }
-        <h1 className='text-center'>Nuevo Personaje</h1>
+        <h1 className='text-center'>Modificar Personaje</h1>
         <form style={{ width: "500px", margin: "auto" }}>
           <label>Serie: </label>
           <select ref={this.cajaSerie} className="form-select">
